@@ -1,0 +1,17 @@
+footer {
+	padding: 1.25em 2.25em;
+	justify-content: center;
+	text-align: center;
+	background: var(--clr-red);
+	color: var(--clr-background);
+}
+
+.footer--link {
+	text-decoration: none;
+}
+
+.footer--link:hover {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}

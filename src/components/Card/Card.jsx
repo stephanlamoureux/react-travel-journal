@@ -1,4 +1,6 @@
 import './Card.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 export default function Card(props) {
 	console.log(props)
@@ -9,7 +11,7 @@ export default function Card(props) {
 			</div>
 
 			<div className="card--infos">
-				{/* <FontAwesomeIcon icon={faLocationDot} className="card--location-icon" /> */}
+				<FontAwesomeIcon icon={faLocationDot} className="card--location-icon" />
 				<h2 className="card--location">{props.card.location}</h2>
 				<a className="card--location-url" href={props.card.googleMapsUrl}>
 					View on Google Maps

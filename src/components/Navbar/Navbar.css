@@ -16,3 +16,8 @@ nav {
 	letter-spacing: -0.075em;
 	color: var(--clr-background);
 }
+
+.nav--icon {
+	height: 2em;
+	color: var(--clr-background);
+}

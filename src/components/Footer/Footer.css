@@ -7,11 +7,16 @@ footer {
 }
 
 .footer--link {
-	text-decoration: none;
+	transition: ease all 0.2s;
 }
 
 .footer--link:hover {
-	text-decoration: none;
-	color: black;
+	filter: brightness(0.4);
 	cursor: pointer;
+	transition: ease all 0.2s;
+}
+
+.footer--icon {
+	height: 2em;
+	color: var(--clr-background);
 }

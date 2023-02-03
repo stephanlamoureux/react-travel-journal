@@ -2,3 +2,4 @@
 - match image shape to design file
 - fix footer
 - add link to image
+- lighten bottom border to match design

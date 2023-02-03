@@ -1,0 +1,4 @@
+- letter spacing on country name
+- match image shape to design file
+- fix footer
+- add link to image

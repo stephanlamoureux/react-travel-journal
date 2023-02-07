@@ -7,7 +7,9 @@ export default function Card(props) {
 	return (
 		<div className="card">
 			<div className="card--img-box">
-				<img className="card--img" src={props.card.imageUrl} alt={props.card.title} />
+				<a href={props.card.googleMapsUrl} target="_blank">
+					<img className="card--img" src={props.card.imageUrl} alt={props.card.title} />
+				</a>
 			</div>
 
 			<div className="card--infos">

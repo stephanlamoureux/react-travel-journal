@@ -26,6 +26,7 @@
 		--clr-text-main: #2b283a;
 		--clr-text-light: #918e9b;
 		--clr-background: #ffffff;
+		--clr-line: #f5f5f5;
 	}
 }
 
@@ -35,6 +36,7 @@
 		--clr-text-main: #ffffff;
 		--clr-text-light: #e5e5e5;
 		--clr-background: #1d1d1c;
+		--clr-line: #505050;
 	}
 }
 
